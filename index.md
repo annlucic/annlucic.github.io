@@ -5,10 +5,7 @@
 ### Category Name 1 
 
 [Project 1 Анализ оттока клиентов Банка](churn_final.md)
-<img src="images/ch.png?raw=true"/>
-<img src="images/age_churn.png?raw=true"/>
-<img src="images/churn_perc.png?raw=true"/>	
-<img src="images/clusters.png?raw=true"/>	
+<img src="images/img_churn_pro.png?raw=true"/>
 
 ---
 [ff](/pdf/sample_presentation.pdf)
