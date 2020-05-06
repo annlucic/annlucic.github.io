@@ -8,8 +8,8 @@
 <img src="images/img_churn_pro.png?raw=true"/>
 
 ---
-[ff](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Аналитика в Яндекс.Афише](/pdf/sample_presentation.pdf)
+<img src="images/rr_hearmap.png?raw=true"/>
 
 ---
 [Проект "Анализ результатов  A/B теста интернет-магазина"](project_1.md)
