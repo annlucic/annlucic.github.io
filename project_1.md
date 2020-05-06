@@ -21,8 +21,8 @@
 
 ```python
 # cтатистическая значимость различий в среднем чеке заказа между группами по «сырым» данным
-"{0:.3f}".format(stats.mannwhitneyu(sampleA, sampleB)[1])
-"{0:.3f}".format(sampleB.mean()/sampleA.mean()-1)
+print("{0:.3f}".format(stats.mannwhitneyu(sampleA, sampleB)[1]))
+print("{0:.3f}".format(sampleB.mean()/sampleA.mean()-1))
 
 # cтатистическая значимость различий в среднем чеке заказа между группами по «очищенным» данным
 
