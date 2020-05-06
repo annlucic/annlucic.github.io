@@ -82,12 +82,12 @@ km = KMeans(n_clusters = 4, random_state=0)
 labels = km.fit_predict(x_sc)
 ```
 Выделены закономерности в кластерах и предположения о признаках наиболее влияющих на отток
-<img src="images/dendro.png?raw=true"/> 
+<img src="images/clusters.png?raw=true"/> 
 
 ### 3. Сегментация пользователей по потреблению
 
 Проводится сегментация по количеству продуктов и анализ сегментов
-<img src="images/dendro.png?raw=true"/> 
+<img src="images/ch.png?raw=true"/> 
 
 ### 4. Проверка гипотез
 Проверено 9 гипотез методом `st.ttest_ind()`
