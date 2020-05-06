@@ -4,15 +4,18 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Project 1 Анализ оттока клиентов Банка](churn_final.md)
+<img src="images/ch.png?raw=true"/>
+<img src="images/age_churn.png?raw=true"/>
+<img src="images/churn_perc.png?raw=true"/>	
+<img src="images/clusters.png?raw=true"/>	
 
 ---
 [ff](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Проект "Анализ результатов  A/B теста"](project_1.md)
+[Проект "Анализ результатов  A/B теста интернет-магазина"](project_1.md)
 <img src="images/ab_conv.png?raw=true"/>
 
 ---
