@@ -2,9 +2,9 @@
 
 ---
 
-### Category Name 1 
+### Projects
 
-[Project 1 Анализ оттока клиентов Банка](churn_final.md)
+[Анализ оттока клиентов Банка](churn_final.md)
 <img src="images/img_churn_pro.png?raw=true"/>
 
 ---
@@ -13,7 +13,7 @@
 
 ---
 [Проект "Анализ результатов  A/B теста интернет-магазина"](project_1.md)
-<img src="images/ab_conv.png?raw=true"/>
+<img src="images/ab_cover.png?raw=true"/>
 
 ---
 
