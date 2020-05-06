@@ -9,7 +9,7 @@
 
 ---
 [Аналитика в Яндекс.Афише](/pdf/sample_presentation.pdf)
-<img src="images/rr_hearmap.png?raw=true"/>
+<img src="images/rr_heatmap.png?raw=true"/>
 
 ---
 [Проект "Анализ результатов  A/B теста интернет-магазина"](project_1.md)
