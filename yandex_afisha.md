@@ -38,9 +38,46 @@
 
 <img src="images/rr_heatmap.png?raw=true"/>
 
-### 2. Примеры кода
+### 2. Пример расчета возрастного когортного отчета
 
 ```python
+
+first_orders = orders.groupby('uid').agg({'buy_ts': 'min'}).reset_index()
+first_orders.columns = ['uid', 'first_order_ts']
+
+first_visits = visits.groupby('uid').agg({'start_ts': 'min'}).reset_index()
+first_visits.columns = ['uid', 'first_visit_ts']
+
+buyers = pd.merge(first_visits, first_orders, on='uid')
+buyers['first_order_month'] = buyers['first_order_ts'].astype('datetime64[M]')
+
+cohort_sizes = buyers.groupby('first_order_month').agg({'uid': 'nunique'}).reset_index()
+cohort_sizes.rename(columns={'uid': 'n_buyers'}, inplace=True)
+
+cohorts = pd.merge(orders, buyers, how='inner', on=['uid', 'first_order_month'])\
+    .groupby(['first_order_month', 'order_month'])\
+    .agg({'revenue': ['sum', 'count']}).reset_index()
+    
+# Считаем возраст каждой когорты
+
+cohorts['age_month'] = ((cohorts['order_month'] - cohorts['first_order_month']) / np.timedelta64(1,'M')).round()
+cohorts.columns = ['first_order_month', 'order_month', 'revenue', 'n_orders', 'age_month']
+    
+# Добавляем в когортный отчет количество покупателей в каждой когорте 
+# и считаем выручку и количество заказов на каждого покупателя.
+
+cohorts_report = pd.merge(cohort_sizes, cohorts, on = 'first_order_month')
+cohorts_report['rev_per_buyer'] = cohorts_report['revenue'] / cohorts_report['n_buyers']
+cohorts_report['orders_per_buyer'] = cohorts_report['n_orders'] / cohorts_report['n_buyers']
+
+ # Возростной когортный отчет, показывающий накопительную выручку на покупателя
+
+cohorts_age = cohorts_report.pivot_table(
+index='first_order_month', 
+columns='age_month', 
+values='rev_per_buyer', 
+aggfunc='sum'
+).cumsum(axis=1)
 
 ```
 
