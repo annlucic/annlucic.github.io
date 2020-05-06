@@ -50,7 +50,7 @@
 
 ### 4. Используемые библиотеки
 
-pandas, numpy, matplotlib, scipy
+pandas, numpy, matplotlib, seaborn, plotly
 
 Правилами Яндекс.Практикума запрещено выкладывать проекты в открытый доступ, поэтому [Полная версия проекта на github](https://github.com/annlucic/yandex_praktikum/blob/master/ab_testing.ipynb) доступна по запросу.
 
