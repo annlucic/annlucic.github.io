@@ -8,7 +8,7 @@
 <img src="images/img_churn_pro.png?raw=true"/>
 
 ---
-[Аналитика в Яндекс.Афише](/pdf/sample_presentation.pdf)
+[Аналитика в Яндекс.Афише](yandex_afisha.md)
 <img src="images/rr_heatmap.png?raw=true"/>
 
 ---
