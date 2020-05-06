@@ -16,8 +16,6 @@
 
 ### 1. Исследовательский анализ данных
 
-- суммарное значение оттока
-<img src="images/churn_perc.png?raw=true"/>
 - Исследование и анализ распределения признаков, выявление закономерностей
 <img src="images/age_churn.png?raw=true"/>
 <img src="images/gender_churn.png?raw=true"/>
