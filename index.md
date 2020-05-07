@@ -17,7 +17,8 @@
 
 ---
 
-
+[Автоматизация в Яндекс.Дзене](automation.md)
+<img src="images/dash_screen1.png?raw=true"/>
 ---
 
 
