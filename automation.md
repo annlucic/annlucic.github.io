@@ -107,6 +107,5 @@ CREATE TABLE dash_visits(record_id serial PRIMARY KEY,
 
 PostgreSQL 
 
-Правилами Яндекс.Практикума запрещено выкладывать проекты в открытый доступ, поэтому [Полная версия проекта на github](https://github.com/annlucic/yandex_praktikum/blob/master/ab_testing.ipynb), содержащая скрипты пайплайна, дашборда и инструкции по запуску, доступна по запросу.
-
+[Cкрипты пайплайна, дашборда и инструкции по запуску на github](https://github.com/annlucic/automation)
 
