@@ -58,5 +58,5 @@ print("{0:.3f}".format(
 
 pandas, numpy, matplotlib, scipy
 
-Правилами Яндекс.Практикума запрещено выкладывать проекты в открытый доступ, поэтому [Полная версия проекта на github](https://github.com/annlucic/yandex_praktikum/blob/master/ab_testing.ipynb) доступна по запросу.
+Правилами Яндекс.Практикума запрещено выкладывать проекты в открытый доступ, поэтому [Полная версия проекта на github](https://nbviewer.jupyter.org/github/annlucic/yandex_praktikum/blob/master/ab_testing.ipynb) доступна по запросу.
 
