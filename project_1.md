@@ -58,5 +58,7 @@ print("{0:.3f}".format(
 
 pandas, numpy, matplotlib, scipy
 
-Правилами Яндекс.Практикума запрещено выкладывать проекты в открытый доступ, поэтому [Полная версия проекта на github](https://nbviewer.jupyter.org/github/annlucic/yandex_praktikum/blob/master/ab_testing.ipynb) доступна по запросу.
+[Полная версия данного проекта на github](https://nbviewer.jupyter.org/github/annlucic/yandex_praktikum/blob/master/ab_testing.ipynb) доступна по запросу.
+
+Еще один [Проект по A/A и A/B тестам github](https://nbviewer.jupyter.org/github/annlucic/ya_praktikum/blob/master/aab_test.ipynb) В проекте анализ результатов A/A и A/B тестов и проверка гипотез о равенстве долей z-критерием.
 
