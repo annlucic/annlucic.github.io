@@ -89,5 +89,5 @@ aggfunc='sum'
 
 pandas, numpy, matplotlib, seaborn, plotly
 
-Правилами Яндекс.Практикума запрещено выкладывать проекты в открытый доступ, поэтому [Полная версия проекта на github](https://github.com/annlucic/yandex_praktikum/blob/master/ab_testing.ipynb) доступна по запросу.
+Правилами Яндекс.Практикума запрещено выкладывать проекты в открытый доступ, поэтому [Полная версия проекта на github](https://github.com/annlucic/yandex_praktikum/blob/master/yandex_afisha.ipynb) доступна по запросу.
 
