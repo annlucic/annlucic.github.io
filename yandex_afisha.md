@@ -89,5 +89,5 @@ aggfunc='sum'
 
 pandas, numpy, matplotlib, seaborn, plotly
 
-[Полная версия проекта на github](https://nbviewer.jupyter.org/github/annlucic/yandex_praktikum/blob/master/yandex_afisha.ipynb) доступна по запросу.
+[Jupyter Notebook c полной версией проекта на github](https://nbviewer.jupyter.org/github/annlucic/yandex_praktikum/blob/master/yandex_afisha.ipynb)
 
