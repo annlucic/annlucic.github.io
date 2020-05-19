@@ -17,10 +17,14 @@
 
 ---
 
+[Аналитика в Авиакомпании (SQL, парсинг, request, bs4)](airlines_sql.md)
+<img src="images/air1.png?raw=true"/>
+
+---
+
 [Автоматизация в Яндекс.Дзене (dash, sqlalchemy, psycopg2, PostgreSQL, ubuntu)](automation.md)
 <img src="images/dash_screen1.png?raw=true"/>
 ---
-
 
 <!--<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>-->
 <!-- Remove above link if you don't want to attibute -->
